@@ -83,7 +83,7 @@ You will need a dataset of paired grayscale SAR images and their corresponding c
 
 Below is a comparison of the grayscale SAR input, the predicted color output, and the actual color reference:
 
-![image1](image1)
+![image1]([image1](https://github.com/pyareayu/SAR-IMAGE-COLORIZATION/blob/main/Screenshot%202025-02-23%20204504.png))
 
 | Grayscale SAR Image | Predicted Color | Actual Color |
 |---------------------|-----------------|-------------|
