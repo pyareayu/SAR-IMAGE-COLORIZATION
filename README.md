@@ -1,6 +1,6 @@
 # SAR Image Colorization
 
-This project focuses on the colorization of grayscale Synthetic Aperture Radar (SAR) images using advanced deep learning techniques. By leveraging DCGAN (Deep Convolutional Generative Adversarial Network) and UNet architectures, the system converts single-channel SAR images into realistic color images.
+This project focuses on the colorization of grayscale Synthetic Aperture Radar (SAR) images using advanced deep learning models. By leveraging DCGAN (Deep Convolutional Generative Adversarial Network) and UNet architectures, the system converts single-channel SAR images into realistic color images.
 
 ## Table of Contents
 
@@ -79,13 +79,15 @@ You will need a dataset of paired grayscale SAR images and their corresponding c
    python colorize.py --input path/to/grayscale_sar.png --output path/to/colorized_result.png
    ```
 
-### Results
+## Results
 
-Below are sample results of the SAR image colorization process:
+Below is a comparison of the grayscale SAR input, the predicted color output, and the actual color reference:
 
-| Grayscale SAR Image | Colorized Image |
-|---------------------|----------------|
-| ![Grayscale](samples/grayscale.png) | ![Colorized](samples/colorized.png) |
+![image1](image1)
+
+| Grayscale SAR Image | Predicted Color | Actual Color |
+|---------------------|-----------------|-------------|
+|         Left        |     Center      |    Right    |
 
 ## Contributing
 
@@ -97,7 +99,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-For queries or collaborations, please contact [yourname](mailto:ayush843119@gmail.com) or visit the [GitHub repository](https://github.com/yourusername/sar-image-colorization).
+For queries or collaborations, please contact [yourname](mailto:your.email@example.com) or visit the [GitHub repository](https://github.com/yourusername/sar-image-colorization).
 
 ---
 _Bringing color to SAR imagery using deep learning!_
